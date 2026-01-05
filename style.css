@@ -76,6 +76,21 @@ form{width:90%}
 .webidf91 a,.webidf91 h6{font-size:13px;color:#fff;text-align:center;font-weight:300;margin-top:3%}
 .contact-icon,.realisation,.container,.broubras4{display:none}
 
+/* FAQ Section */
+.faq-section{width:80%;margin:5% auto 10%;padding:2%}
+.faq-section h2{font-size:35px;margin-bottom:5%;color:#01002c}
+.faq-item{margin-bottom:15px;border:2px solid #01002c;border-radius:15px;overflow:hidden;background:#fff}
+.faq-item input[type="checkbox"]{display:none}
+.faq-question{display:flex;justify-content:space-between;align-items:center;padding:20px 25px;cursor:pointer;background:#fff;font-size:18px;font-weight:600;color:#01002c;transition:background 0.3s}
+.faq-question:hover{background:#f5f5f5}
+.faq-question::after{content:"+";font-size:28px;font-weight:700;color:#6F90CE;transition:transform 0.3s}
+.faq-item input[type="checkbox"]:checked + .faq-question::after{content:"-"}
+.faq-item input[type="checkbox"]:checked + .faq-question{background:#6F90CE;color:#fff}
+.faq-item input[type="checkbox"]:checked + .faq-question::after{color:#fff}
+.faq-answer{max-height:0;overflow:hidden;transition:max-height 0.4s ease,padding 0.4s ease;background:#fff}
+.faq-item input[type="checkbox"]:checked ~ .faq-answer{max-height:500px;padding:20px 25px}
+.faq-answer p{margin:0;font-size:16px;line-height:1.8;color:#01002c;text-align:left}
+
 .hp-wrap {
     position: absolute !important;
     left: -9999px !important;
@@ -166,4 +181,11 @@ form{width:95%}
 .reseauxidf91 a{font-size:13px;color:#fff}
 .reseauxidf91 ion-icon{font-size:16px}
 .realisation-pc,.ordinateur,.ordinateur2{display:none}
+/* FAQ Mobile */
+.faq-section{width:95%;margin:10% auto 15%;padding:1%}
+.faq-section h2{font-size:25px;margin-bottom:8%}
+.faq-question{padding:15px 18px;font-size:16px}
+.faq-question::after{font-size:24px}
+.faq-item input[type="checkbox"]:checked ~ .faq-answer{padding:15px 18px}
+.faq-answer p{font-size:15px}
 }
