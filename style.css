@@ -76,7 +76,6 @@ form{width:90%}
 .webidf91 a,.webidf91 h6{font-size:13px;color:#fff;text-align:center;font-weight:300;margin-top:3%}
 .contact-icon,.realisation,.container,.broubras4{display:none}
 
-/* FAQ Section */
 .faq-section{width:80%;margin:5% auto 10%;padding:2%}
 .faq-section h2{font-size:35px;margin-bottom:5%;color:#01002c}
 .faq-item{margin-bottom:15px;border:2px solid #01002c;border-radius:15px;overflow:hidden;background:#fff}
@@ -181,7 +180,6 @@ form{width:95%}
 .reseauxidf91 a{font-size:13px;color:#fff}
 .reseauxidf91 ion-icon{font-size:16px}
 .realisation-pc,.ordinateur,.ordinateur2{display:none}
-/* FAQ Mobile */
 .faq-section{width:95%;margin:10% auto 15%;padding:1%}
 .faq-section h2{font-size:25px;margin-bottom:8%}
 .faq-question{padding:15px 18px;font-size:16px}
