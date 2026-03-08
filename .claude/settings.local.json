@@ -13,7 +13,10 @@
       "Bash(fi)",
       "Bash(done)",
       "Bash(git add:*)",
-      "Bash(git commit -m \"$\\(cat <<''EOF''\nMise a jour formulaires avec webhook WebPrime\n\n- Remplacement formsubmit.co par webhook WebPrime\n- Ajout fonction submitToWebPrime async\n- Honeypot: name=\"_gotcha\"\n- Suppression accents dans JavaScript\n- Options select sans accents\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nMise a jour formulaires avec webhook WebPrime\n\n- Remplacement formsubmit.co par webhook WebPrime\n- Ajout fonction submitToWebPrime async\n- Honeypot: name=\"_gotcha\"\n- Suppression accents dans JavaScript\n- Options select sans accents\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nAjout sections FAQ sur 6 pages\n\n- FAQ accueil: questions generales assainissement\n- FAQ devis: tarifs et paiement\n- FAQ entreprise: equipe et materiel\n- FAQ debouchage: techniques et urgences\n- FAQ camera: inspection video\n- FAQ bac a graisse: entretien et vidange\n- Styles CSS pour accordeon FAQ responsive\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git commit:*)"
     ]
   }
 }
